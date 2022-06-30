@@ -15,7 +15,7 @@
             <tr>
                 <td><?= $categoria['nome']?></td>
                 <td>
-                    <a href="<?php echo $base_url . "?c=categoria&m=excluir&id=" .  $categoria['idcategoria']?>" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i></a>
+                    <a href="<?php echo base_url() . "?c=categoria&m=excluir&id=" .  $categoria['idcategoria']?>" class="btn btn-danger"><i class="fa-solid fa-trash-can"></i></a>
                     <a href="" class="btn btn-primary"><i class="fa-solid fa-pencil"></i></a>
                 </td>
             </tr>
