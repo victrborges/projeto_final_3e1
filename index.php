@@ -1,4 +1,7 @@
 <?php
+  function base_url(){
+    return "http://localhost/3infoA/Victor/projeto_final/index.php";
+  }
     //verifica se foi enviado a variável c que contém
     //o nome do controlador que eu quero executar
     if(isset($_GET["c"])){
