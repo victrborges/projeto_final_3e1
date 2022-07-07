@@ -1,9 +1,9 @@
 <?php
     class Conexao{
-        static $host = '127.0.0.1';
-        static $user = 'root';
-        static $pass = '';
-        static $database = 'db_catalogo_3e1';
+        static $host = 'sql203.epizy.com';
+        static $user = 'epiz_32123167';
+        static $pass = '1L17J9CdD2Vv4';
+        static $database = 'epiz_32123167_db_catalogo_3e1';
         static $port = '3306';
         static $con;
 
